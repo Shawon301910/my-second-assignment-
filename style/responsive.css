@@ -22,6 +22,9 @@
     .packages-container {
         flex-direction: column;
     }
+    .align-content {
+        width: 100%;
+    }
     .destination-image {
         grid-template-rows: repeat(7, 1fr);
     }
@@ -50,5 +53,44 @@
     }
     .image-item7 {
         grid-column: 1/ span 24;
+    }
+    .choose-container {
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .choose-container .hotels {
+        grid-column: 1/ span 12;
+    }
+    
+    .choose-container .service {
+        grid-column: 1/ span 12;
+    }
+    
+    .choose-container .Guarantee {
+        grid-column: 1/ span 12;
+    }
+    .deals-content {
+        width: 100%;
+        margin-top: 220px;
+    }
+    .deals-banner .deals-content {
+        right: 0;
+    }
+    .simple-container {
+        flex-direction: column;
+    }
+    .subscribe-container {
+        flex-direction: column;
+    }
+    footer {
+        padding: 30px;
+    }
+    .footer-container {
+        width: 100%;
+    }
+    .footer-container .share-list {
+        margin-bottom: 20px;
+    }
+    .footer-container .footer-description {
+        padding: 20px;
     }
 }

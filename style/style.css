@@ -33,6 +33,13 @@ body {
     font-weight: 800;
 }
 
+.section-sub-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
 .description {
     color: #131318b3;
     line-height: 26px;
@@ -42,9 +49,16 @@ body {
 .btn {
     background-color: #FF5400;
     color: #fff;
+    font-weight: 800;
     padding: 15px 30px;
     border: none;
     border-radius: 10px;
+}
+
+.align-content {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
 }
 
 /* start header related section */
@@ -172,12 +186,6 @@ body {
 /* end packages section */
 /* start destination section */
 
-.destination-content {
-    text-align: center;
-    width: 70%;
-    margin: 0 auto;
-}
-
 .destination-image {
     display: grid;
     grid-template-columns: repeat(24, 1fr);
@@ -233,10 +241,226 @@ body {
 }
 
 /* end destination section */
+/* start choose section */
+
+.choose-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.choose-container .ext-style {
+    width: 100%;
+    padding: 30px;
+}
+
+.choose-container .ext-style i {
+    font-size: 50px;
+}
+
+.choose-container .hotels {
+    grid-column: 1/ span 6;
+    border-radius: 16px;
+    border: 1px solid #fbb56333;
+    background: #fbb5630d;
+}
+
+.choose-container .service {
+    grid-column: 7/ span 6;
+    border-radius: 16px;
+    border: 1px solid #29cef633;
+    background: #29cef60d;
+}
+
+.choose-container .Guarantee {
+    grid-column: 4/ span 6;
+    border-radius: 16px;
+    border: 1px solid #e9444433;
+    background: #e944440d;
+}
+
+/* end choose section */
+/* start deals section */
+
+.deals-container .deals-banner {
+    background-image: url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 25px 0;
+    padding: 55px;
+    border-radius: 16px;
+}
+
+.deals-content {
+    width: 50%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: #ffffffcc;
+    backdrop-filter: blur(2px);
+    padding: 50px;
+}
+
+.deals-banner .deals-content {
+    position: relative;
+    top: 0;
+    right: -50%;
+}
+
+.deals-content .deals-info {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.deals-content .deals-info li {
+    list-style-type: none;
+    color: #5A5A5D;
+    margin-left: 25px;
+}
+
+.deals-content .deals-info li:first-child {
+    margin-left: 0;
+}
+
+.deals-content .deals-info li i {
+    margin-right: 10px;
+}
+
+.deals-container .ext-deals {
+    background-image: url(../Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px;
+}
+
+.ext-margin {
+    margin-bottom: 30px;
+}
+
+.more-pack {
+    text-align: center;
+}
+
+/* end deals section */
+/* start simple place section */
+
+.simple-container {
+    display: flex;
+    gap: 50px;
+}
+
+.simple-content .simple-list {
+    color: #131318;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 0 0 45px 20px;
+}
+
+.bangladesh-moment {
+    position: relative;
+    text-align: center;
+}
+
+.bangladesh-moment img {
+    width: 100%;
+}
+
+.bangladesh-moment .simple-overlay {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* end simple place section */
+/* start subscribe section */
+
+.subscribe-container {
+    display: flex;
+    gap: 40px;
+}
+
+.subscribe-container .newsletter {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+.subscribe-container .newsletter form {
+    padding-top: 40px;
+    border-top: 1px solid #1313181a;
+}
+.subscribe-container .newsletter .subscribe-info {
+    display: block;
+    width: 100%;
+    background-color: #1313180d;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+.subscribe-container .newsletter .subscribe-info:last-child {
+    background-color: #FF5400;
+    color: #fff;
+    font-weight: 800;
+}
+.subscribe-container .subscribe-image {
+    position: relative;
+}
+.subscribe-container .subscribe-image img {
+    width: 100%;
+}
+.subscribe-container .subscribe-image .subscribe-discount {
+    background-color: #FF5400;
+    color: #fff;
+    text-align: center;
+    width: 250px;
+    border-radius: 16px;
+    padding: 20px;
+    position: absolute;
+    bottom: 55px;
+    right: 3px;
+    transform: rotate(-25deg);
+}
+
+/* end subscribe section */
 
 /* end main related section */
 /* start footer related section */
 
-
-
+footer {
+    background-color: #1313180d;
+    text-align: center;
+    padding: 110px;
+}
+.footer-container {
+    width: 60%;
+    margin: 0 auto;
+}
+.logo-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-container .share-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.footer-container .share-list li {
+    list-style-type: none;
+    margin-left: 20px;
+}
+.footer-container .share-list li:first-child {
+    margin-left: 0;
+}
+.footer-container .footer-description {
+    border-top: 1px solid #1313181a;
+    padding: 50px;
+}
 /* end footer related section */
