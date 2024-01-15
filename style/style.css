@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* reuseable style */
+
+.row {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.primary-color {
+    color: #FF5400;
+}
+
+.section-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.description {
+    color: #131318b3;
+    line-height: 26px;
+    margin: 25px 0;
+}
+
+/* start header related section */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo .logo-title {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.navigation-item>ul {
+    display: flex;
+}
+
+.navigation-item>ul li {
+    list-style-type: none;
+    margin-left: 45px;
+}
+
+.navigation-item>ul li:first-child {
+    margin-left: 0;
+}
+
+.navigation-item>ul li a {
+    color: #424247;
+    font-size: 18px;
+}
+
+.navigation .bars-icon {
+    display: none;
+}
+
+.navigation .bars-icon .fa-bars {
+    font-size: 30px;
+}
+
+.banner {
+    text-align: center;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.banner-overlay {
+    background: linear-gradient(rgba(19, 19, 24, 0.80), rgba(19, 19, 24, 0.00));
+    border-radius: 16px;
+}
+
+.banner-container {
+    width: 75%;
+    margin: 0 auto;
+    padding: 105px;
+}
+
+.banner-container .banner-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-container .banner-description {
+    color: #FFF;
+    line-height: 26px;
+    margin: 25px 0 50px;
+}
+
+.info-search {
+    border-radius: 10px;
+    background: #ffffff4d;
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+}
+
+.info-search .info-search-item {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.info-search input::placeholder {
+    color: #13131880;
+}
+
+.info-search .select-ext-color {
+    color: #13131880;
+}
+
+.info-search .info-search-item:last-child {
+    background-color: #FF5400;
+    color: #fff;
+}
+
+/* end header related section */
+/* start main related section */
+
+
+
+/* end main related section */
+/* start footer related section */
+
+
+
+/* end footer related section */
