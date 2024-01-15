@@ -23,6 +23,10 @@ body {
     color: #FF5400;
 }
 
+.section {
+    margin-top: 100px;
+}
+
 .section-title {
     color: #131318;
     font-size: 40px;
@@ -33,6 +37,14 @@ body {
     color: #131318b3;
     line-height: 26px;
     margin: 25px 0;
+}
+
+.btn {
+    background-color: #FF5400;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
 }
 
 /* start header related section */
@@ -146,7 +158,81 @@ body {
 /* end header related section */
 /* start main related section */
 
+/* start packages section */
 
+.packages-container {
+    display: flex;
+    gap: 50px;
+}
+
+.packages-content .dec-list {
+    padding-left: 20px;
+}
+
+/* end packages section */
+/* start destination section */
+
+.destination-content {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.destination-image {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.image-item1 {
+    grid-column: 1/ span 12;
+}
+
+.image-item2 {
+    grid-column: 13/ span 12;
+}
+
+.image-item3 {
+    grid-column: 1/ span 8;
+}
+
+.image-item4 {
+    grid-column: 9/ span 10;
+}
+
+.image-item5 {
+    grid-column: 19/ span 6;
+}
+
+.image-item6 {
+    grid-column: 1/ span 10;
+}
+
+.image-item7 {
+    grid-column: 11/ span 14;
+}
+
+.destination-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.destination-image div {
+    position: relative;
+}
+
+.destination-image div .image-overlay {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 800;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* end destination section */
 
 /* end main related section */
 /* start footer related section */
