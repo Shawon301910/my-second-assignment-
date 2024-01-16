@@ -182,6 +182,9 @@ body {
 .packages-content .dec-list {
     padding-left: 20px;
 }
+.packages-image img {
+    width: 100%;
+}
 
 /* end packages section */
 /* start destination section */
@@ -228,6 +231,7 @@ body {
 
 .destination-image div {
     position: relative;
+    width: 100%;
 }
 
 .destination-image div .image-overlay {
