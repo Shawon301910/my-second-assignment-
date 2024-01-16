@@ -351,6 +351,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 55px;
+    border-radius: 16px;
 }
 
 .ext-margin {
@@ -476,18 +477,22 @@ body {
     margin-top: 20px;
     box-shadow: 2px 2px 4px #2f2f2f;
 }
+
 .sponsor-container div {
     width: 50%;
     height: 20%;
 }
+
 .sponsor-container div img {
     width: 100%;
     border-radius: 16px;
 }
+
 .sponsor-container .visa {
     padding: 30px;
     border-right: 1px solid #5a5a5d89;
 }
+
 .sponsor-container .airline {
     padding: 30px;
     border-radius: 16px;
@@ -535,6 +540,7 @@ footer {
     border-top: 1px solid #1313181a;
     padding-top: 50px;
 }
+
 .footer-container .share-list li a {
     color: #131318;
 }
